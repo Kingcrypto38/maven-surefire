@@ -102,7 +102,7 @@
     <maven.site.path>surefire-archives/surefire-LATEST</maven.site.path>
     <maven.compiler.testSource>1.${javaVersion}</maven.compiler.testSource>
     <maven.compiler.testTarget>1.${javaVersion}</maven.compiler.testTarget>
-    <jvm9ArgsTests />
+    <jvm9ArgsTests/>
     <jvm.args.tests>${jvm9ArgsTests} -Xms32m -Xmx144m -XX:SoftRefLRUPolicyMSPerMB=50 -Djava.awt.headless=true -Djdk.net.URLClassPath.disableClassPathURLCheck=true</jvm.args.tests>
     <project.build.outputTimestamp>2023-12-09T20:26:59Z</project.build.outputTimestamp>
   </properties>
@@ -170,7 +170,7 @@
       <dependency>
         <groupId>org.apache.maven.reporting</groupId>
         <artifactId>maven-reporting-impl</artifactId>
-        <version>3.2.0</version>
+        <version>4.0.0</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.maven</groupId>
